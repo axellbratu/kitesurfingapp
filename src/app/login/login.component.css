@@ -1,0 +1,21 @@
+
+div{
+  margin:0 auto;
+}
+
+input{
+  position:relative;
+  display: block;
+  margin:2rem;
+}
+
+button{
+  background-color: rgb(38, 204, 255);
+  color:white;
+}
+
+.Fancytext{
+  padding-left: 2vh;
+  font-family:'Dinattallie Personal Use Only', sans-serif;
+  src: url('http://fonts.cdnfonts.com/css/dinattallie-personal-use-only');
+}

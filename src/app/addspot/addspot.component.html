@@ -1,0 +1,44 @@
+<div class="d-flex justify-content-center">
+    <mat-card fxLayout="grid" fxLayoutAlign="center center">
+        <mat-card-content>
+            <div>
+                <h2>Add a spot</h2>
+            </div>
+            <label>Name:</label>
+            <div>
+                <input matInput required type="text">
+            </div>
+            <label>Country:</label>
+            <div>
+                <input matInput required type="text">
+            </div>
+
+            <div>
+                <label>High season:</label>
+
+            </div>
+            <div>
+                <label>From</label>
+                <input data-provide="datepicker" type="date">
+            </div>
+            <div>
+                <label>To:</label>
+                <input data-provide="datepicker" type="date">
+            </div>
+            <!--
+            could not get another map to instantiate in the dialogue within the aloted time.
+        -->
+            <button mat-stroked-button (click)="addSpot()" style="background-color: #25ccff;">
+                Add spot
+            </button>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+
+<!--
+    name
+    Country
+    High season
+    minimap
+-->

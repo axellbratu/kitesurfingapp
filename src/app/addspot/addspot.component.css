@@ -1,0 +1,16 @@
+.mat-card{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+.mat-card-title{
+    display: block;
+}
+
+#minimap{
+    width: 80%;
+    height: 60%;
+    align-content: center;
+    display: block;
+}

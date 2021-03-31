@@ -1,0 +1,13 @@
+<mat-toolbar class="navbar">
+    <div class="Fancytext">Kite</div>
+    <div fxLayout="row" fxLayoutAlign="center center">
+        <span ><button class="addspotstyle" mat-stroked-button (click)="openDialog()">Add spot</button></span>
+        <span><button [matMenuTriggerFor]="appMenu" mat-icon-button color="#f5f5f5" class="personbutton" >
+                <mat-icon>person</mat-icon>
+            </button></span>
+    </div>
+</mat-toolbar>
+
+<mat-menu #appMenu="matMenu">
+    <button mat-button fxFlexFill (click)='logout()'>Log out</button>
+</mat-menu>

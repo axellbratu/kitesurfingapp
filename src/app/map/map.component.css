@@ -1,0 +1,11 @@
+#map{
+    margin:0 auto;
+    position: relative;
+    width: 80%;
+    height: 50%;
+    align-content: center;
+}
+
+.popupButton{
+    width:100%;
+}
